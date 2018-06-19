@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF8520E120D8A50F000B6FBE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8520E020D8A50F000B6FBE /* AppDelegate.swift */; };
+		EF8520E320D8A50F000B6FBE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8520E220D8A50F000B6FBE /* ViewController.swift */; };
+		EF8520E620D8A50F000B6FBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF8520E420D8A50F000B6FBE /* Main.storyboard */; };
+		EF8520E820D8A511000B6FBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF8520E720D8A511000B6FBE /* Assets.xcassets */; };
+		EF8520EB20D8A511000B6FBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF8520E920D8A511000B6FBE /* LaunchScreen.storyboard */; };
+		EF8520F620D8A511000B6FBE /* myImageImporterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8520F520D8A511000B6FBE /* myImageImporterTests.swift */; };
+		EF85210120D8A511000B6FBE /* myImageImporterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF85210020D8A511000B6FBE /* myImageImporterUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF8520F220D8A511000B6FBE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF8520D520D8A50F000B6FBE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF8520DC20D8A50F000B6FBE;
+			remoteInfo = myImageImporter;
+		};
+		EF8520FD20D8A511000B6FBE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF8520D520D8A50F000B6FBE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF8520DC20D8A50F000B6FBE;
+			remoteInfo = myImageImporter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF8520DD20D8A50F000B6FBE /* myImageImporter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myImageImporter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF8520E020D8A50F000B6FBE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EF8520E220D8A50F000B6FBE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EF8520E520D8A50F000B6FBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF8520E720D8A511000B6FBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF8520EA20D8A511000B6FBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF8520EC20D8A511000B6FBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF8520F120D8A511000B6FBE /* myImageImporterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myImageImporterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF8520F520D8A511000B6FBE /* myImageImporterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myImageImporterTests.swift; sourceTree = "<group>"; };
+		EF8520F720D8A511000B6FBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF8520FC20D8A511000B6FBE /* myImageImporterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myImageImporterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF85210020D8A511000B6FBE /* myImageImporterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myImageImporterUITests.swift; sourceTree = "<group>"; };
+		EF85210220D8A511000B6FBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF8520DA20D8A50F000B6FBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF8520EE20D8A511000B6FBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF8520F920D8A511000B6FBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF8520D420D8A50F000B6FBE = {
+			isa = PBXGroup;
+			children = (
+				EF8520DF20D8A50F000B6FBE /* myImageImporter */,
+				EF8520F420D8A511000B6FBE /* myImageImporterTests */,
+				EF8520FF20D8A511000B6FBE /* myImageImporterUITests */,
+				EF8520DE20D8A50F000B6FBE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF8520DE20D8A50F000B6FBE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF8520DD20D8A50F000B6FBE /* myImageImporter.app */,
+				EF8520F120D8A511000B6FBE /* myImageImporterTests.xctest */,
+				EF8520FC20D8A511000B6FBE /* myImageImporterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF8520DF20D8A50F000B6FBE /* myImageImporter */ = {
+			isa = PBXGroup;
+			children = (
+				EF8520E020D8A50F000B6FBE /* AppDelegate.swift */,
+				EF8520E220D8A50F000B6FBE /* ViewController.swift */,
+				EF8520E420D8A50F000B6FBE /* Main.storyboard */,
+				EF8520E720D8A511000B6FBE /* Assets.xcassets */,
+				EF8520E920D8A511000B6FBE /* LaunchScreen.storyboard */,
+				EF8520EC20D8A511000B6FBE /* Info.plist */,
+			);
+			path = myImageImporter;
+			sourceTree = "<group>";
+		};
+		EF8520F420D8A511000B6FBE /* myImageImporterTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF8520F520D8A511000B6FBE /* myImageImporterTests.swift */,
+				EF8520F720D8A511000B6FBE /* Info.plist */,
+			);
+			path = myImageImporterTests;
+			sourceTree = "<group>";
+		};
+		EF8520FF20D8A511000B6FBE /* myImageImporterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF85210020D8A511000B6FBE /* myImageImporterUITests.swift */,
+				EF85210220D8A511000B6FBE /* Info.plist */,
+			);
+			path = myImageImporterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF8520DC20D8A50F000B6FBE /* myImageImporter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF85210520D8A511000B6FBE /* Build configuration list for PBXNativeTarget "myImageImporter" */;
+			buildPhases = (
+				EF8520D920D8A50F000B6FBE /* Sources */,
+				EF8520DA20D8A50F000B6FBE /* Frameworks */,
+				EF8520DB20D8A50F000B6FBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = myImageImporter;
+			productName = myImageImporter;
+			productReference = EF8520DD20D8A50F000B6FBE /* myImageImporter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF8520F020D8A511000B6FBE /* myImageImporterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF85210820D8A511000B6FBE /* Build configuration list for PBXNativeTarget "myImageImporterTests" */;
+			buildPhases = (
+				EF8520ED20D8A511000B6FBE /* Sources */,
+				EF8520EE20D8A511000B6FBE /* Frameworks */,
+				EF8520EF20D8A511000B6FBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF8520F320D8A511000B6FBE /* PBXTargetDependency */,
+			);
+			name = myImageImporterTests;
+			productName = myImageImporterTests;
+			productReference = EF8520F120D8A511000B6FBE /* myImageImporterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EF8520FB20D8A511000B6FBE /* myImageImporterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF85210B20D8A511000B6FBE /* Build configuration list for PBXNativeTarget "myImageImporterUITests" */;
+			buildPhases = (
+				EF8520F820D8A511000B6FBE /* Sources */,
+				EF8520F920D8A511000B6FBE /* Frameworks */,
+				EF8520FA20D8A511000B6FBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF8520FE20D8A511000B6FBE /* PBXTargetDependency */,
+			);
+			name = myImageImporterUITests;
+			productName = myImageImporterUITests;
+			productReference = EF8520FC20D8A511000B6FBE /* myImageImporterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF8520D520D8A50F000B6FBE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Ashish Kondaka";
+				TargetAttributes = {
+					EF8520DC20D8A50F000B6FBE = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					EF8520F020D8A511000B6FBE = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = EF8520DC20D8A50F000B6FBE;
+					};
+					EF8520FB20D8A511000B6FBE = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = EF8520DC20D8A50F000B6FBE;
+					};
+				};
+			};
+			buildConfigurationList = EF8520D820D8A50F000B6FBE /* Build configuration list for PBXProject "myImageImporter" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF8520D420D8A50F000B6FBE;
+			productRefGroup = EF8520DE20D8A50F000B6FBE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF8520DC20D8A50F000B6FBE /* myImageImporter */,
+				EF8520F020D8A511000B6FBE /* myImageImporterTests */,
+				EF8520FB20D8A511000B6FBE /* myImageImporterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF8520DB20D8A50F000B6FBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF8520EB20D8A511000B6FBE /* LaunchScreen.storyboard in Resources */,
+				EF8520E820D8A511000B6FBE /* Assets.xcassets in Resources */,
+				EF8520E620D8A50F000B6FBE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF8520EF20D8A511000B6FBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF8520FA20D8A511000B6FBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF8520D920D8A50F000B6FBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF8520E320D8A50F000B6FBE /* ViewController.swift in Sources */,
+				EF8520E120D8A50F000B6FBE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF8520ED20D8A511000B6FBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF8520F620D8A511000B6FBE /* myImageImporterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF8520F820D8A511000B6FBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF85210120D8A511000B6FBE /* myImageImporterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF8520F320D8A511000B6FBE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF8520DC20D8A50F000B6FBE /* myImageImporter */;
+			targetProxy = EF8520F220D8A511000B6FBE /* PBXContainerItemProxy */;
+		};
+		EF8520FE20D8A511000B6FBE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF8520DC20D8A50F000B6FBE /* myImageImporter */;
+			targetProxy = EF8520FD20D8A511000B6FBE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF8520E420D8A50F000B6FBE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF8520E520D8A50F000B6FBE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF8520E920D8A511000B6FBE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF8520EA20D8A511000B6FBE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF85210320D8A511000B6FBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EF85210420D8A511000B6FBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF85210620D8A511000B6FBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = myImageImporter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kondaka.myImageImporter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF85210720D8A511000B6FBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = myImageImporter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kondaka.myImageImporter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EF85210920D8A511000B6FBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = myImageImporterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kondaka.myImageImporterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/myImageImporter.app/myImageImporter";
+			};
+			name = Debug;
+		};
+		EF85210A20D8A511000B6FBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = myImageImporterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kondaka.myImageImporterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/myImageImporter.app/myImageImporter";
+			};
+			name = Release;
+		};
+		EF85210C20D8A511000B6FBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = myImageImporterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kondaka.myImageImporterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = myImageImporter;
+			};
+			name = Debug;
+		};
+		EF85210D20D8A511000B6FBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = myImageImporterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kondaka.myImageImporterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = myImageImporter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF8520D820D8A50F000B6FBE /* Build configuration list for PBXProject "myImageImporter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF85210320D8A511000B6FBE /* Debug */,
+				EF85210420D8A511000B6FBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF85210520D8A511000B6FBE /* Build configuration list for PBXNativeTarget "myImageImporter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF85210620D8A511000B6FBE /* Debug */,
+				EF85210720D8A511000B6FBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF85210820D8A511000B6FBE /* Build configuration list for PBXNativeTarget "myImageImporterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF85210920D8A511000B6FBE /* Debug */,
+				EF85210A20D8A511000B6FBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF85210B20D8A511000B6FBE /* Build configuration list for PBXNativeTarget "myImageImporterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF85210C20D8A511000B6FBE /* Debug */,
+				EF85210D20D8A511000B6FBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF8520D520D8A50F000B6FBE /* Project object */;
+}
